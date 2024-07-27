@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electoral Vote Probability Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electoral Vote Probability Calculator</h1>
+        <div class="filter-options">
+            <h3>Select States:</h3>
+            <div class="state-buttons">
+                <button data-state="Arizona" data-value="11">Arizona (11)</button>
+                <button data-state="Georgia" data-value="16">Georgia (16)</button>
+                <button data-state="Michigan" data-value="15">Michigan (15)</button>
+                <button data-state="North Carolina" data-value="16">North Carolina (16)</button>
+                <button data-state="Nevada" data-value="6">Nevada (6)</button>
+                <button data-state="Pennsylvania" data-value="19">Pennsylvania (19)</button>
+                <button data-state="Wisconsin" data-value="10">Wisconsin (10)</button>
+                <button data-state="Texas" data-value="40" class="trump">Texas (40)</button>
+                <button data-state="Maine" data-value="2" class="Harris">Maine (2)</button>
+                <button data-state="Minnesota" data-value="10" class="Harris">Minnesota (10)</button>
+                <button data-state="Alaska" data-value="3" class="trump">Alaska (3)</button>
+                <button data-state="New Mexico" data-value="5" class="Harris">New Mexico (5)</button>
+                <button data-state="Virginia" data-value="13" class="Harris">Virginia (13)</button>
+                <button data-state="NE-02" data-value="1" class="Harris">NE-02 (1)</button>
+            </div>
+        </div>
+        <div class="filter-options">
+            <label for="outcome-filter">Filter by Outcome:</label>
+            <select id="outcome-filter">
+                <option value="all">All</option>
+                <option value="Harris">Harris</option>
+                <option value="Trump">Trump</option>
+                <option value="Tie">Tie</option>
+            </select>
+        </div>
+        <div class="detail-box">
+            <h2>Victory Paths</h2>
+            <div id="victory-paths-container"> 
+                <!-- Victory paths will be inserted here by JavaScript -->
+            </div>
+        </div>
+        <div class="grid-container">
+            <table id="probability-grid">
+                <thead>
+                    <tr>
+                        <th>Scenario</th>
+                        <th>Arizona</th>
+                        <th>Georgia</th>
+                        <th>Michigan</th>
+                        <th>North Carolina</th>
+                        <th>Nevada</th>
+                        <th>Pennsylvania</th>
+                        <th>Wisconsin</th>
+                        <th>Texas</th>
+                        <th>Maine</th>
+                        <th>Minnesota</th>
+                        <th>Alaska</th>
+                        <th>New Mexico</th>
+                        <th>Virginia</th>
+                        <th>NE-02</th>
+                        <th>Harris EV</th>
+                        <th>Trump EV</th>
+                        <th>Winner</th>
+                        <th>Over 270 Mark</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Grid data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+READ ME
+----------------------------------------------------------------------------------------------------
+This is an Electoral Vote Probability Calculator. 
+It is set up based on base numbers of safe Republican and Safe Democratic states.
+It then follows with 7 Likley states and 7 Swing states in the 2024 election.
+-----------------------------------------------------------------------------------------
+Some of these Likley states have been the talk of a potential swing state.
+It is also used as security incase of any unexpected flips come Election Day. 
+If the measures were not put in place, these calculations would not be accurate.
+----------------------------------------------------------------------------------------
+								HOW TO USE
+
+Click on a swing state to calculate how many remaining paths to victory there are in total.
+It will also show how many paths both Joe Biden and Donald Trump have remaining.
+Some of these paths may be unrealistic given correlation theory.
+These calculations do not account for correlation, they are raw permutations.
+
+In the event a Likely state does become a swing state, we will simply deselect it's already existing scenario.
+
+You will find that when clicking on each state, it will not only show how many paths to victory there are, but the percentage of paths to victory.
+There are also tie scenarios. Please experiment with as many scenarios as possible to see the outcomes. See the winners column and the Trump EV and Biden EV to see each outcome. You will also be able to see how many electoral votes over the 270 mark is in each path.
+
+Assuming it's Election Day, these calculations can be made to find the minimum and maximum outcome for each candidate, while also calculating any possibility of a nightmare 269 - 269 scenario electoral college tie.
+
+---------------------------------------------------------IMPORTANT!!!!!!!!!!!!!!-------------------------------------------------------------------
+It is possible that when deselecting all of these, it will be too much to handle as it will display all 2^14 combinations.
+It is RECOMMENDED that only THREE or *at maximum* FOUR deselections be made on the states that are Likely.
+These Likely states may also be controversial and are unlikely to flip to either candidate, but as mentioned, it puts in place a guardrail.
+Though it may differ depending on your machine. If you have a 4GB Ram and your storage is low, you may only want to deselect swing states only.
+It is also why the likely states are already preselected.
+
+INCASE:
+In the event of a State that is not listed does flip (or a congressional district with EV),
+the code will need to be updated.
+
+
+
+----------------------------------------------------BREAK OPEN TO REGENERATE--------------------------------------------------------------------------------
+
+//Emergency code for:------------------HTML//
+
+<button data-state="NE-2" data-value="1" class="biden">NE-2 (1)</button>
+
+//and//
+//IN-----------------------JS//
+
+const bidenBase = 195;
+const trumpBase = 146;
+const states = {
+    'Arizona': 11, 'Georgia': 16, 'Michigan': 15, 'North Carolina': 16, 'Nevada': 6,
+    'Pennsylvania': 19, 'Wisconsin': 10, 'Florida': 30, 'Texas': 40, 'Maine': 2,
+    'Minnesota': 10, 'Alaska': 3, 'New Mexico': 5, 'Virginia': 13, "NE-2: 1"
+
+    //AFTER VIRGINIA//
+
+    <th>Virginia</th>
+    <th>NE-2</th>
+
+
+    --------------------------------------------------------------------------------------------------------------------------------------------------------

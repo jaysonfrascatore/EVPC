@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Black background for the entire page */
+    color: white; /* White text color */
+}
+
+.container {
+    width: 90%;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* White text color */
+}
+
+.filter-options {
+    margin-bottom: 20px;
+}
+
+.state-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.state-buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white; /* White text color for buttons */
+}
+
+.state-buttons button {
+    background-color: #4B0082; /* Indigo for default state */
+    color: white;
+}
+
+.state-buttons button.Harris {
+    background-color: blue; /* Blue background for Harris buttons */
+}
+
+.state-buttons button.trump {
+    background-color: red; /* Red background for Trump buttons */
+}
+
+.state-buttons button.purple {
+    background-color: purple; /* purple background for purple buttons */
+}
+
+.detail-box {
+    border: 1px solid #ccc; /* Light border color */
+    background-color: #333; /* Darker background for the detail box */
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center; /* Center-align the content inside .detail-box */
+    color: white; /* White text color */
+}
+
+.grid-container {
+    overflow-x: auto;
+    width: 100%; /* Ensure it takes up full width available */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#probability-grid {
+    transform: scale(0.8); /* Shrinks the grid to 80% of its original size */
+    transform-origin: top left; /* Keeps the top left corner fixed */
+    width: 125%; /* Adjust width to prevent cut-off issues */
+    border-collapse: collapse; /* Ensure borders collapse properly */
+    background-color: #222; /* Dark background for the grid */
+    color: white; /* White text color for grid */
+}
+
+#probability-grid th, #probability-grid td {
+    border: 1px solid #444; /* Darker border color */
+    padding: 8px;
+    text-align: center;
+}
+
+#probability-grid th {
+    background-color: #444; /* Darker background for headers */
+}
+
+.victory-paths {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing as needed */
+    margin-top: 10px; /* Adjust top margin as needed */
+}
+
+.victory-paths p {
+    flex: 1; /* Each paragraph takes equal space */
+    font-size: 40px; /* Adjust font size as desired */
+}
+
+.paths-summary {
+    margin-top: 20px; /* Add some space above the summary */
+}
+
+.paths-summary p {
+    font-size: 30px; /* Adjust font size as desired */
+}
