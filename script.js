@@ -1,9 +1,8 @@
-const HarrisBase = 195;
-const trumpBase = 176;
+const HarrisBase = 212;
+const trumpBase = 179;
 const states = {
     'Arizona': 11, 'Georgia': 16, 'Michigan': 15, 'North Carolina': 16, 'Nevada': 6,
-    'Pennsylvania': 19, 'Wisconsin': 10, 'Texas': 40, 'Maine': 2,
-    'Minnesota': 10, 'Alaska': 3, 'New Mexico': 5, 'Virginia': 13, 'NE-02': 1
+    'Pennsylvania': 19, 'Wisconsin': 10, 'Texas': 40, 'Virginia': 13, 'NE-02': 1
 };
 
 let initialCombinations = [];
@@ -140,10 +139,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Pre-select states
     document.querySelector('button[data-state="Texas"]').classList.add('trump');
-    document.querySelector('button[data-state="Alaska"]').classList.add('trump');
-    document.querySelector('button[data-state="Maine"]').classList.add('Harris');
-    document.querySelector('button[data-state="Minnesota"]').classList.add('Harris');
-    document.querySelector('button[data-state="New Mexico"]').classList.add('Harris');
     document.querySelector('button[data-state="Virginia"]').classList.add('Harris');
     document.querySelector('button[data-state="NE-02"]').classList.add('Harris');
 
